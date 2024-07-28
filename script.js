@@ -1,6 +1,6 @@
 function enviarMensagem() {
     let inputMensagem = document.querySelector("#inputMensagem");
-    let mensagem = inputMensagem.value;
+    let mensagem = inputMensagem.value.trim();
 
     if (mensagem == "") {
         alert("Nenhuma mensagem!!!")
